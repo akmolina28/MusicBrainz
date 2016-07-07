@@ -92,6 +92,9 @@ namespace Hqub.MusicBrainz.API.Entities
         [XmlElement("tag-list")]
         public TagList Tags { get; set; }
 
+        [XmlElement("relation-list")]
+        public RelationList Relations { get; set; }
+
         #endregion
 
         #region Static Methods
