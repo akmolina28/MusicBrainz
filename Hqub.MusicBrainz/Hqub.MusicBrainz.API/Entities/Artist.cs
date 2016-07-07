@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Hqub.MusicBrainz.API.Entities.Collections;
 using Hqub.MusicBrainz.API.Entities.Metadata;
+using Hqub.MusicBrainz.API.Entities.Relationships;
 
 namespace Hqub.MusicBrainz.API.Entities
 {

@@ -5,19 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Hqub.MusicBrainz.API.Entities
+namespace Hqub.MusicBrainz.API.Entities.Relationships
 {
     [XmlRoot("relation", Namespace = "http://musicbrainz.org/ns/mmd-2.0#")]
     public class Relation
     {
         /// <summary>
-        /// MusicBrainz id of the type of the related entity (artist, area, etc.).
+        /// MusicBrainz id of the type of the related entity (artist, area, etc).
         /// </summary>
         [XmlAttribute("type-id")]
         public string TypeId { get; set; }
 
         /// <summary>
-        /// The type of related the entity.
+        /// The type of relationship (part of, member of band, etc).
         /// </summary>
         [XmlAttribute("type")]
         public string Type { get; set; }
@@ -51,11 +51,5 @@ namespace Hqub.MusicBrainz.API.Entities
         /// </summary>
         [XmlElement("ended")]
         public string Ended { get; set; }
-
-        /// <summary>
-        /// The entity (if this instance is an artist relation).
-        /// </summary>
-        [XmlElement("artist")]
-        public Artist Artist { get; set; }
     }
 }
