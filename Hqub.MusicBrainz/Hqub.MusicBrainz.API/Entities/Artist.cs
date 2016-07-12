@@ -96,6 +96,12 @@ namespace Hqub.MusicBrainz.API.Entities
         [XmlElement("tag-list")]
         public TagList Tags { get; set; }
 
+        [XmlElement("begin-area")]
+        public Area BeginArea { get; set; }
+
+        [XmlElement("area")]
+        public Area Area { get; set; }
+
         #endregion
 
         #region Static Methods

@@ -90,5 +90,24 @@ namespace Hqub.MusicBrainz.API.Test
             var releases = (await Entities.Recording.BrowseAsync("artist", artist.Id, 40)).Items;
             Assert.AreEqual(releases.Count, 40);
         }
+
+        [TestMethod]
+        public async Task TestAreaGetAsync()
+        {
+            var area = await Entities.Area.GetAsync("83f22bb6-4631-443c-bace-9fae8540362a");
+
+            Assert.IsNotNull(area, "Area not found.");
+
+            Assert.AreEqual("san francisco", area.Name.ToLower(),
+                string.Format("Expected 'San Francisco' instead '{0}'.", area.Name));
+        }
+
+        [TestMethod]
+        public async Task TestAreaSearchAsync()
+        {
+            var area = (await Entities.Area.SearchAsync("San Francisco")).Items;
+
+            Assert.AreNotEqual(0, area.Count, "Results is Empty.");
+        }
     }
 }

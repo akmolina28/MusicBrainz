@@ -56,7 +56,9 @@
     <Compile Include="Configuration.cs" />
     <Compile Include="Entities\Area.cs" />
     <Compile Include="Entities\Artist.cs" />
-    <Compile Include="Entities\Collections\AreaList.cs" />
+    <Compile Include="Entities\Collections\AreaList.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Entities\Collections\ArtistList.cs" />
     <Compile Include="Entities\Collections\BaseList.cs" />
     <Compile Include="Entities\Collections\MediumList.cs" />
@@ -85,7 +87,9 @@
     <Compile Include="Entities\Relationships\RelationList.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Entities\Relationships\RelationTarget.cs" />
+    <Compile Include="Entities\Relationships\RelationTarget.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Entities\Release.cs" />
     <Compile Include="Entities\ReleaseGroup.cs" />
     <Compile Include="Entities\Tag.cs" />

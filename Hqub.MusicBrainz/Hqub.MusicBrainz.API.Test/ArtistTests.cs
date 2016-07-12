@@ -99,5 +99,22 @@ namespace Hqub.MusicBrainz.API.Test
             Assert.AreEqual("0135740e-69dc-41a0-86d9-6a57664809a5", work.Id);
             Assert.AreEqual("(We're Living on) Borrowed Time", work.Title);
         }
+
+        [TestMethod]
+        public void TestArtistAreas()
+        {
+            Assert.IsNotNull(artist.BeginArea);
+            Assert.AreEqual("Duluth", artist.BeginArea.Name);
+            Assert.AreEqual("Duluth", artist.BeginArea.SortName);
+            Assert.AreEqual("04e60741-b1ae-4078-80bb-ffe8ae643ea7", artist.BeginArea.Id);
+
+            Assert.IsNotNull(artist.Area);
+            Assert.AreEqual("United States", artist.Area.Name);
+            Assert.AreEqual("United States", artist.Area.SortName);
+            Assert.AreEqual("489ce91b-6658-3307-9877-795b68554c98", artist.Area.Id);
+            Assert.IsNotNull(artist.Area.Iso3166_1CodeList);
+            Assert.AreEqual(1, artist.Area.Iso3166_1CodeList.Items.Count);
+            Assert.AreEqual("US", artist.Area.Iso3166_1CodeList.Items[0].Value);
+        }
     }
 }

@@ -63,6 +63,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AreaTests.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ArtistListTests.cs" />
     <Compile Include="ArtistRelationTests.cs" />
     <Compile Include="ArtistTests.cs" />
@@ -95,6 +98,9 @@
     <EmbeddedResource Include="Data\release-search.xml" />
     <EmbeddedResource Include="Data\releasegroup-get.xml" />
     <EmbeddedResource Include="Data\releasegroup-search.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\area-get.xml" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

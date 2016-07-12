@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+  <area type="City" type-id="6fd8f29a-3d0a-32fc-980d-ea697b69da78" id="f03d09b3-39dc-4083-afd6-159e3f0d462f">
+    <name>London</name>
+    <sort-name>London</sort-name>
+    <relation-list target-type="area">
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>0597b915-cb5c-454e-9d6f-7cfffd69b0f6</target>
+        <area id="0597b915-cb5c-454e-9d6f-7cfffd69b0f6">
+          <name>Tower Hamlets</name>
+          <sort-name>Tower Hamlets</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-TWH</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>11518382-04c9-473d-98d6-2c0f4b2b9bd9</target>
+        <area id="11518382-04c9-473d-98d6-2c0f4b2b9bd9">
+          <name>Enfield</name>
+          <sort-name>Enfield</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-ENF</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>16dc51f3-ec54-4c74-a8dd-3510829049db</target>
+        <area id="16dc51f3-ec54-4c74-a8dd-3510829049db">
+          <name>Waltham Forest</name>
+          <sort-name>Waltham Forest</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-WFT</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>1a7ebbac-d318-469f-bd69-1a88107189a3</target>
+        <area id="1a7ebbac-d318-469f-bd69-1a88107189a3">
+          <name>Sutton</name>
+          <sort-name>Sutton</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-STN</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>2649ce9e-919e-48c0-abc7-c04983835b17</target>
+        <area id="2649ce9e-919e-48c0-abc7-c04983835b17">
+          <name>Brent</name>
+          <sort-name>Brent</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-BEN</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>3c254244-166a-474c-85b5-938698ebbf28</target>
+        <area id="3c254244-166a-474c-85b5-938698ebbf28">
+          <name>Hammersmith and Fulham</name>
+          <sort-name>Hammersmith and Fulham</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HMF</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>4020f085-9caf-433d-b8aa-2ee86f0c7589</target>
+        <area id="4020f085-9caf-433d-b8aa-2ee86f0c7589">
+          <name>Greenwich</name>
+          <sort-name>Greenwich</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-GRE</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>40868657-ef80-4b66-88ba-263ecac1b9a1</target>
+        <area id="40868657-ef80-4b66-88ba-263ecac1b9a1">
+          <name>Harrow</name>
+          <sort-name>Harrow</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HRW</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>48d08ee1-db45-4566-bb1d-c47ab6dbaf98</target>
+        <area id="48d08ee1-db45-4566-bb1d-c47ab6dbaf98">
+          <name>Westminster</name>
+          <sort-name>Westminster</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-WSM</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>54181a4b-9f77-4919-b8c5-f7af03fbbe17</target>
+        <area id="54181a4b-9f77-4919-b8c5-f7af03fbbe17">
+          <name>Wandsworth</name>
+          <sort-name>Wandsworth</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-WND</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>58019cb6-8fbe-4bd4-bd56-3b2e71128d07</target>
+        <area id="58019cb6-8fbe-4bd4-bd56-3b2e71128d07">
+          <name>Hounslow</name>
+          <sort-name>Hounslow</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HNS</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>5d9d8e13-c62b-4fe8-8f18-7b22346a7ed8</target>
+        <area id="5d9d8e13-c62b-4fe8-8f18-7b22346a7ed8">
+          <name>Kingston upon Thames</name>
+          <sort-name>Kingston upon Thames</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-KTT</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>627f7b90-32b6-4bc6-b11e-ee1d86ca1cd7</target>
+        <area id="627f7b90-32b6-4bc6-b11e-ee1d86ca1cd7">
+          <name>Camden</name>
+          <sort-name>Camden</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-CMD</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>6f34ea39-ca6c-4982-9731-3a5c7a0edf36</target>
+        <area id="6f34ea39-ca6c-4982-9731-3a5c7a0edf36">
+          <name>Lambeth</name>
+          <sort-name>Lambeth</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-LBH</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>71d7ce55-816c-4e64-8dbf-e2289a696354</target>
+        <area id="71d7ce55-816c-4e64-8dbf-e2289a696354">
+          <name>Bromley</name>
+          <sort-name>Bromley</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-BRY</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>76325eca-c006-429f-93bb-d499ae80916c</target>
+        <area id="76325eca-c006-429f-93bb-d499ae80916c">
+          <name>Hackney</name>
+          <sort-name>Hackney</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HCK</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>77bd9218-74c6-4881-9495-457be4ba62e7</target>
+        <area id="77bd9218-74c6-4881-9495-457be4ba62e7">
+          <name>Croydon</name>
+          <sort-name>Croydon</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-CRY</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>7c17c50a-8faf-42f4-83f7-0a42bc0091e0</target>
+        <area id="7c17c50a-8faf-42f4-83f7-0a42bc0091e0">
+          <name>Lewisham</name>
+          <sort-name>Lewisham</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-LEW</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>817a3404-240e-49c0-b799-21bf578b3991</target>
+        <area id="817a3404-240e-49c0-b799-21bf578b3991">
+          <name>City of London</name>
+          <sort-name>City of London</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-LND</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>8bcd4274-68a9-4a13-a754-c9e4e2aaddaf</target>
+        <area id="8bcd4274-68a9-4a13-a754-c9e4e2aaddaf">
+          <name>Ealing</name>
+          <sort-name>Ealing</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-EAL</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>98249400-1065-41c3-a29b-49901d552006</target>
+        <area id="98249400-1065-41c3-a29b-49901d552006">
+          <name>Newham</name>
+          <sort-name>Newham</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-NWM</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>9d5dd675-3cf4-4296-9e39-67865ebee758</target>
+        <direction>backward</direction>
+        <area id="9d5dd675-3cf4-4296-9e39-67865ebee758">
+          <name>England</name>
+          <sort-name>England</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-ENG</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>a13062f4-aa93-4888-a524-4f9bf7016731</target>
+        <area id="a13062f4-aa93-4888-a524-4f9bf7016731">
+          <name>Bexley</name>
+          <sort-name>Bexley</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-BEX</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>ad54b599-b125-4bcd-b4bf-f85c96c2b181</target>
+        <area id="ad54b599-b125-4bcd-b4bf-f85c96c2b181">
+          <name>Hillingdon</name>
+          <sort-name>Hillingdon</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HIL</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>b5f9b558-9f45-4710-a3cf-0366e92800f8</target>
+        <area id="b5f9b558-9f45-4710-a3cf-0366e92800f8">
+          <name>Barking and Dagenham</name>
+          <sort-name>Barking and Dagenham</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-BDG</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>b60bfcef-e8b5-4e56-b229-d5f4cd9fc1c5</target>
+        <area id="b60bfcef-e8b5-4e56-b229-d5f4cd9fc1c5">
+          <name>Havering</name>
+          <sort-name>Havering</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HAV</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>b9576171-3434-4d1b-8883-165ed6e65d2f</target>
+        <area id="b9576171-3434-4d1b-8883-165ed6e65d2f">
+          <name>Kensington and Chelsea</name>
+          <sort-name>Kensington and Chelsea</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-KEC</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>badaf213-5136-4c04-84ec-d5ad5be6537d</target>
+        <area id="badaf213-5136-4c04-84ec-d5ad5be6537d">
+          <name>Southwark</name>
+          <sort-name>Southwark</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-SWK</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>be0308c4-9c83-4e19-8cb7-33d3fb54d32f</target>
+        <area id="be0308c4-9c83-4e19-8cb7-33d3fb54d32f">
+          <name>Richmond upon Thames</name>
+          <sort-name>Richmond upon Thames</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-RIC</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>c6ef13de-878d-42f7-a566-04f0c8ac1159</target>
+        <area id="c6ef13de-878d-42f7-a566-04f0c8ac1159">
+          <name>Redbridge</name>
+          <sort-name>Redbridge</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-RDB</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>cd46362d-4a6e-429e-a970-c3a0134e0b10</target>
+        <area id="cd46362d-4a6e-429e-a970-c3a0134e0b10">
+          <name>Haringey</name>
+          <sort-name>Haringey</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-HRY</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type="part of" type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7">
+        <target>e3b25e1c-0adf-4773-820e-533b4f245d01</target>
+        <area id="e3b25e1c-0adf-4773-820e-533b4f245d01">
+          <name>Islington</name>
+          <sort-name>Islington</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-ISL</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>e3f0a43a-ceaf-4784-93ea-5a261e0e2b94</target>
+        <area id="e3f0a43a-ceaf-4784-93ea-5a261e0e2b94">
+          <name>Merton</name>
+          <sort-name>Merton</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-MRT</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+      <relation type-id="de7cc874-8b1b-3a05-8272-f3834c968fb7" type="part of">
+        <target>f6fc8acf-4acb-4179-b9cb-36612e1c15a6</target>
+        <area id="f6fc8acf-4acb-4179-b9cb-36612e1c15a6">
+          <name>Barnet</name>
+          <sort-name>Barnet</sort-name>
+          <iso-3166-2-code-list>
+            <iso-3166-2-code>GB-BNE</iso-3166-2-code>
+          </iso-3166-2-code-list>
+        </area>
+      </relation>
+    </relation-list>
+    <relation-list target-type="url">
+      <relation type-id="9228621d-9720-35c3-ad3f-327d789464ec" type="wikipedia">
+        <target id="f115f3aa-7948-482f-861f-1173825c8c2b">http://en.wikipedia.org/wiki/London</target>
+      </relation>
+      <relation type="geonames" type-id="c52f14c0-e9ac-4a8a-8f7a-c47328de168f">
+        <target id="e4122e9f-3e37-4211-ac76-f1ee4a95426b">http://sws.geonames.org/2643743/</target>
+      </relation>
+      <relation type="geonames" type-id="c52f14c0-e9ac-4a8a-8f7a-c47328de168f">
+        <target id="4c439c02-7cbd-4c84-a578-b11196a767f4">http://sws.geonames.org/2648110/</target>
+      </relation>
+      <relation type-id="85c5256f-aef1-484f-979a-42007218a1c2" type="wikidata">
+        <target id="0936e6ac-cf60-419b-b1a5-b1ff454f9cb4">https://www.wikidata.org/wiki/Q84</target>
+      </relation>
+    </relation-list>
+  </area>
+</metadata>
