@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace Hqub.MusicBrainz.API.Entities.Relationships
@@ -23,10 +19,10 @@ namespace Hqub.MusicBrainz.API.Entities.Relationships
         public string Type { get; set; }
 
         /// <summary>
-        /// Music Brainz id of the related entity.
+        /// The target of the relationship.
         /// </summary>
         [XmlElement("target")]
-        public string Target { get; set; }
+        public RelationTarget Target { get; set; }
 
         /// <summary>
         /// Direction of the relationship (forward or backward).
@@ -51,5 +47,11 @@ namespace Hqub.MusicBrainz.API.Entities.Relationships
         /// </summary>
         [XmlElement("ended")]
         public string Ended { get; set; }
+
+        /// <summary>
+        /// The Artist entity (if this instance is an artist relation).
+        /// </summary>
+        [XmlElement("artist")]
+        public Artist Artist { get; set; }
     }
 }

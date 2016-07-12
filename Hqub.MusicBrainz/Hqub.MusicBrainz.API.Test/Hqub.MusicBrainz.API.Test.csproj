@@ -66,7 +66,7 @@
     <Compile Include="ArtistListTests.cs" />
     <Compile Include="ArtistRelationTests.cs" />
     <Compile Include="ArtistTests.cs" />
-    <EmbeddedResource Include="Data\artist-inc-artist-rels-get.xml">
+    <EmbeddedResource Include="Data\artist-inc-artist-url-rels-get.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="ReleaseGroupTests.cs" />

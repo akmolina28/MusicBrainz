@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Hqub.MusicBrainz.API.Entities.Metadata;
+using System.Xml.Serialization;
+using System.Collections.Generic;
+using Hqub.MusicBrainz.API.Entities.Relationships;
 
 namespace Hqub.MusicBrainz.API.Entities
 {
@@ -9,6 +13,35 @@ namespace Hqub.MusicBrainz.API.Entities
     /// </summary>
     public abstract class Entity
     {
+        #region Relations
+
+        /// <summary>
+        /// Gets or sets the list of relations.
+        /// </summary>
+        [XmlElement("relation-list")]
+        public List<RelationList> Relations { get; set; }
+
+        /// <summary>
+        /// Gets the Artist Relations list.
+        /// </summary>
+        public RelationList ArtistRelations
+        {
+            get
+            {
+                return GetRelationsByEntityName(Artist.EntityName);
+            }
+        }
+
+        public RelationList UrlRelations
+        {
+            get
+            {
+                return GetRelationsByEntityName(Url.EntityName);
+            }
+        }
+
+        #endregion
+
         private static string CreateIncludeQuery(string[] inc)
         {
             return string.Join("+", inc);
@@ -82,6 +115,16 @@ namespace Hqub.MusicBrainz.API.Entities
 
             return await WebRequestHelper.GetAsync<T>(WebRequestHelper.CreateBrowseTemplate(entity,
                 relatedEntity, relatedEntityId, limit, offset, CreateIncludeQuery(inc)), withoutMetadata: false);
+        }
+
+        private RelationList GetRelationsByEntityName(string entityName)
+        {
+            RelationList ret = null;
+            if (this.Relations.Any(r => r.TargetType == entityName))
+            {
+                ret = this.Relations.Where(r => r.TargetType == entityName).First();
+            }
+            return ret;
         }
     }
 }

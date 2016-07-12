@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+  <artist type="Group" id="e01646f2-2a04-450d-8bf2-0d993082e058" type-id="e431f5f6-b5d2-343d-8b36-72607fffb74b">
+    <name>Phish</name>
+    <sort-name>Phish</sort-name>
+    <country>US</country>
+    <area id="489ce91b-6658-3307-9877-795b68554c98">
+      <name>United States</name>
+      <sort-name>United States</sort-name>
+      <iso-3166-1-code-list>
+        <iso-3166-1-code>US</iso-3166-1-code>
+      </iso-3166-1-code-list>
+    </area>
+    <begin-area id="453f5392-25d8-408e-b648-321b904e3439">
+      <name>Burlington</name>
+      <sort-name>Burlington</sort-name>
+    </begin-area>
+    <life-span>
+      <begin>1983</begin>
+    </life-span>
+    <relation-list target-type="artist">
+      <relation type="member of band" type-id="5be4c609-9afa-4ea0-910b-12ffb71e3821">
+        <target>37c132f1-6fd2-4d37-8139-b8090cf0b5ba</target>
+        <direction>backward</direction>
+        <begin>1983</begin>
+        <end>1986</end>
+        <ended>true</ended>
+        <artist id="37c132f1-6fd2-4d37-8139-b8090cf0b5ba">
+          <name>Jeff Holdsworth</name>
+          <sort-name>Holdsworth, Jeff</sort-name>
+        </artist>
+      </relation>
+      <relation type="member of band" type-id="5be4c609-9afa-4ea0-910b-12ffb71e3821">
+        <target>ba044149-5d13-43f5-b2ac-a3840f26f11c</target>
+        <direction>backward</direction>
+        <artist id="ba044149-5d13-43f5-b2ac-a3840f26f11c">
+          <name>Page McConnell</name>
+          <sort-name>McConnell, Page</sort-name>
+        </artist>
+      </relation>
+      <relation type="member of band" type-id="5be4c609-9afa-4ea0-910b-12ffb71e3821">
+        <target>c172276a-fcbf-4477-894a-f37d1582557e</target>
+        <direction>backward</direction>
+        <artist id="c172276a-fcbf-4477-894a-f37d1582557e">
+          <name>Mike Gordon</name>
+          <sort-name>Gordon, Mike</sort-name>
+        </artist>
+      </relation>
+      <relation type="member of band" type-id="5be4c609-9afa-4ea0-910b-12ffb71e3821">
+        <target>d942f71b-09d3-406c-8f7d-c52eba3135c1</target>
+        <direction>backward</direction>
+        <artist id="d942f71b-09d3-406c-8f7d-c52eba3135c1">
+          <name>Trey Anastasio</name>
+          <sort-name>Anastasio, Trey</sort-name>
+          <disambiguation>US jam band Phish lead singer</disambiguation>
+        </artist>
+      </relation>
+      <relation type-id="5be4c609-9afa-4ea0-910b-12ffb71e3821" type="member of band">
+        <target>fd1f0177-f5c8-4d13-84c4-b8adea527183</target>
+        <direction>backward</direction>
+        <artist id="fd1f0177-f5c8-4d13-84c4-b8adea527183">
+          <name>Jon Fishman</name>
+          <sort-name>Fishman, Jon</sort-name>
+        </artist>
+      </relation>
+    </relation-list>
+    <relation-list target-type="url">
+      <relation type-id="d94fb61c-fa20-4e3c-a19a-71a949fb2c55" type="other databases">
+        <target id="d34568d6-5b3c-47b7-84ed-fffe2b92de1e">http://d-nb.info/gnd/6510543-6</target>
+      </relation>
+      <relation type="wikipedia" type-id="29651736-fa6d-48e4-aadc-a557c6add1cb">
+        <target id="57fc967f-6c96-468b-830d-1372d1ae5f0f">http://en.wikipedia.org/wiki/Phish</target>
+      </relation>
+      <relation type="lyrics" type-id="e4d73442-3762-45a8-905c-401da65544ed">
+        <target id="8ba08e60-20f3-4f16-aa03-01060a5ad39f">http://lyrics.wikia.com/wiki/Phish</target>
+      </relation>
+      <relation type-id="769085a1-c2f7-4c24-a532-2375a77693bd" type="streaming music">
+        <target id="bc1ccafe-9ad4-466e-8a8e-f1d7e7257f16">http://open.spotify.com/artist/5wbIWUzTPuTxTyG6ouQKqz</target>
+      </relation>
+      <relation type="official homepage" type-id="fe33d22f-c3b0-4d68-bd53-a856badf2b15">
+        <target id="071e804f-898b-436f-9fd8-2b7035123c5a">http://phish.com/</target>
+      </relation>
+      <relation type-id="f484f897-81cc-406e-96f9-cd799a04ee24" type="fanpage">
+        <target id="dea1e083-2a7c-496a-a929-9d9164df05b5">http://phish.net/</target>
+      </relation>
+      <relation type="VIAF" type-id="e8571dcc-35d4-4e91-a577-a3382fd84460">
+        <target id="9c930f03-3d19-4a1c-b5fc-589a75ea231c">http://viaf.org/viaf/168568773</target>
+      </relation>
+      <relation type-id="6b3e3c85-0002-4f34-aca6-80ace0d7e846" type="allmusic">
+        <target id="31e72092-63d0-429a-a175-68c274add144">http://www.allmusic.com/artist/mn0000333464</target>
+      </relation>
+      <relation type-id="f8319a2f-f824-4617-81c8-be6560b3b203" type="purchase for download">
+        <target id="36c140e9-6450-4d65-b2b8-683d1fcdbc58">http://www.amazon.com/-/e/B000APT4U2</target>
+      </relation>
+      <relation type-id="611b1862-67af-4253-a64f-34adba305d1d" type="purchase for mail-order">
+        <target id="36c140e9-6450-4d65-b2b8-683d1fcdbc58">http://www.amazon.com/-/e/B000APT4U2</target>
+      </relation>
+      <relation type="BBC Music page" type-id="d028a975-000c-4525-9333-d3c8425e4b54">
+        <target id="32cb6a2e-9ac4-48e0-b3cc-b49f2879fcc9">http://www.bbc.co.uk/music/artists/e01646f2-2a04-450d-8bf2-0d993082e058</target>
+      </relation>
+      <relation type="discogs" type-id="04a5b104-a4c2-4bac-99a1-7b837c37d9e4">
+        <target id="a4505253-450a-41ce-91bb-ea79f93c1ae1">http://www.discogs.com/artist/252354</target>
+      </relation>
+      <relation type="last.fm" type-id="08db8098-c0df-4b78-82c3-c8697b4bba7f">
+        <target id="e693d37c-ff10-4f7d-acb2-7778b6e06b1a">http://www.last.fm/music/Phish</target>
+      </relation>
+      <relation type="discography" type-id="4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f">
+        <target id="9ae8de99-f883-4da2-a979-397a4c79a6a4">http://www.phish.net/faq/discography.html</target>
+      </relation>
+      <relation type="youtube" type-id="6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0">
+        <target id="57e33ddd-24b8-4962-8357-0679400a2fdd">http://www.youtube.com/user/phish</target>
+      </relation>
+      <relation type-id="221132e9-e30e-43f2-a741-15afc4c5fa7c" type="image">
+        <target id="a1cfa727-955e-41e0-a024-13da4c3a8e37">https://commons.wikimedia.org/wiki/File:Phish_Miami_2009_12_30.jpg</target>
+      </relation>
+      <relation type-id="bac47923-ecde-4b59-822e-d08f0cd10156" type="myspace">
+        <target id="2b6b3b46-b838-480f-854c-d0a1cb4f321f">https://myspace.com/phish</target>
+      </relation>
+      <relation type-id="d94fb61c-fa20-4e3c-a19a-71a949fb2c55" type="other databases">
+        <target id="2c98a9d6-e670-4408-b823-789185d1cf54">https://rateyourmusic.com/artist/phish</target>
+      </relation>
+      <relation type="social network" type-id="99429741-f3f6-484b-84f8-23af51991770">
+        <target id="e81d011c-fc4c-4a53-b9dd-91273f334188">https://twitter.com/phish</target>
+      </relation>
+      <relation type="social network" type-id="99429741-f3f6-484b-84f8-23af51991770">
+        <target id="0392e171-b460-46e7-bae0-e4abaf75e3e8">https://www.facebook.com/phish</target>
+      </relation>
+      <relation type-id="689870a4-a1e4-4912-b17f-7b2664215698" type="wikidata">
+        <target id="3d7d6f47-c973-4cc1-bd81-ac9e782b25db">https://www.wikidata.org/wiki/Q921267</target>
+      </relation>
+    </relation-list>
+  </artist>
+</metadata>

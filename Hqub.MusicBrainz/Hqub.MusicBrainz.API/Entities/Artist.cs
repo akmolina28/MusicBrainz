@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Hqub.MusicBrainz.API.Entities.Collections;
 using Hqub.MusicBrainz.API.Entities.Metadata;
 using Hqub.MusicBrainz.API.Entities.Relationships;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace Hqub.MusicBrainz.API.Entities
 {
@@ -92,9 +95,6 @@ namespace Hqub.MusicBrainz.API.Entities
 
         [XmlElement("tag-list")]
         public TagList Tags { get; set; }
-
-        [XmlElement("relation-list")]
-        public RelationList Relations { get; set; }
 
         #endregion
 
