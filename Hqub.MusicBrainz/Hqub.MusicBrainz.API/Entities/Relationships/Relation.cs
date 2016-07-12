@@ -53,5 +53,11 @@ namespace Hqub.MusicBrainz.API.Entities.Relationships
         /// </summary>
         [XmlElement("artist")]
         public Artist Artist { get; set; }
+
+        /// <summary>
+        /// The Area entity (if this instance is an artist relation).
+        /// </summary>
+        [XmlElement("area")]
+        public Area Area { get; set; }
     }
 }

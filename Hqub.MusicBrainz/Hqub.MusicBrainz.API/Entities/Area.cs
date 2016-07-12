@@ -50,6 +50,9 @@ namespace Hqub.MusicBrainz.API.Entities
         [XmlElement("iso-3166-1-code-list")]
         public Iso3166_1CodeList Iso3166_1CodeList { get; set; }
 
+        [XmlElement("iso-3166-2-code-list")]
+        public Iso3166_2CodeList Iso3166_2CodeList { get; set; }
+
         #endregion
 
         /// <summary>
@@ -84,6 +87,18 @@ namespace Hqub.MusicBrainz.API.Entities
     }
 
     public class Iso3166_1Code
+    {
+        [XmlText]
+        public string Value { get; set; }
+    }
+
+    public class Iso3166_2CodeList
+    {
+        [XmlElement("iso-3166-2-code")]
+        public List<Iso3166_2Code> Items { get; set; }
+    }
+
+    public class Iso3166_2Code
     {
         [XmlText]
         public string Value { get; set; }

@@ -40,6 +40,14 @@ namespace Hqub.MusicBrainz.API.Entities
             }
         }
 
+        public RelationList AreaRelations
+        {
+            get
+            {
+                return GetRelationsByEntityName(Area.EntityName);
+            }
+        }
+
         #endregion
 
         private static string CreateIncludeQuery(string[] inc)

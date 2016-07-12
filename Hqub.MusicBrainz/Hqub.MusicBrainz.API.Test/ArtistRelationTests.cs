@@ -48,13 +48,20 @@ namespace Hqub.MusicBrainz.API.Test
         }
 
         [TestMethod]
+        public void TestUrlRelationListAttributes()
+        {
+            Assert.AreEqual("url", artist.UrlRelations.TargetType);
+        }
+
+        [TestMethod]
         public void TestArtistRelationListItems()
         {
             Assert.IsNotNull(artist.ArtistRelations.Items);
             Assert.AreEqual(5, artist.ArtistRelations.Items.Count);
 
             Relation rel = artist.ArtistRelations.Items[0];
-            Assert.IsNotNull(rel.Artist);
+            Assert.IsNotNull(rel.Artist, "Relation artist is null.");
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
             Assert.AreEqual("5be4c609-9afa-4ea0-910b-12ffb71e3821", rel.TypeId);
             Assert.AreEqual("member of band", rel.Type);
             Assert.AreEqual("37c132f1-6fd2-4d37-8139-b8090cf0b5ba", rel.Target.Value);
@@ -68,36 +75,36 @@ namespace Hqub.MusicBrainz.API.Test
             Assert.AreEqual("37c132f1-6fd2-4d37-8139-b8090cf0b5ba", rel.Artist.Id);
 
             rel = artist.ArtistRelations.Items[1];
-            Assert.IsNotNull(rel.Artist);
+            Assert.IsNotNull(rel.Artist, "Relation artist is null.");
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
             Assert.AreEqual("5be4c609-9afa-4ea0-910b-12ffb71e3821", rel.TypeId);
             Assert.AreEqual("member of band", rel.Type);
             Assert.AreEqual("ba044149-5d13-43f5-b2ac-a3840f26f11c", rel.Target.Value);
             Assert.AreEqual("backward", rel.Direction);
-            Assert.IsNotNull(rel.Artist);
             Assert.AreEqual("Page McConnell", rel.Artist.Name);
             Assert.AreEqual("McConnell, Page", rel.Artist.SortName);
             Assert.AreEqual("ba044149-5d13-43f5-b2ac-a3840f26f11c", rel.Artist.Id);
 
 
             rel = artist.ArtistRelations.Items[2];
-            Assert.IsNotNull(rel.Artist);
+            Assert.IsNotNull(rel.Artist, "Relation artist is null.");
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
             Assert.AreEqual("5be4c609-9afa-4ea0-910b-12ffb71e3821", rel.TypeId);
             Assert.AreEqual("member of band", rel.Type);
             Assert.AreEqual("c172276a-fcbf-4477-894a-f37d1582557e", rel.Target.Value);
             Assert.AreEqual("backward", rel.Direction);
-            Assert.IsNotNull(rel.Artist);
             Assert.AreEqual("Mike Gordon", rel.Artist.Name);
             Assert.AreEqual("Gordon, Mike", rel.Artist.SortName);
             Assert.AreEqual("c172276a-fcbf-4477-894a-f37d1582557e", rel.Artist.Id);
 
 
             rel = artist.ArtistRelations.Items[3];
-            Assert.IsNotNull(rel.Artist);
+            Assert.IsNotNull(rel.Artist, "Relation artist is null.");
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
             Assert.AreEqual("5be4c609-9afa-4ea0-910b-12ffb71e3821", rel.TypeId);
             Assert.AreEqual("member of band", rel.Type);
             Assert.AreEqual("d942f71b-09d3-406c-8f7d-c52eba3135c1", rel.Target.Value);
             Assert.AreEqual("backward", rel.Direction);
-            Assert.IsNotNull(rel.Artist);
             Assert.AreEqual("Trey Anastasio", rel.Artist.Name);
             Assert.AreEqual("Anastasio, Trey", rel.Artist.SortName);
             Assert.AreEqual("d942f71b-09d3-406c-8f7d-c52eba3135c1", rel.Artist.Id);
@@ -105,15 +112,46 @@ namespace Hqub.MusicBrainz.API.Test
 
 
             rel = artist.ArtistRelations.Items[4];
-            Assert.IsNotNull(rel.Artist);
+            Assert.IsNotNull(rel.Artist, "Relation artist is null.");
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
             Assert.AreEqual("5be4c609-9afa-4ea0-910b-12ffb71e3821", rel.TypeId);
             Assert.AreEqual("member of band", rel.Type);
             Assert.AreEqual("fd1f0177-f5c8-4d13-84c4-b8adea527183", rel.Target.Value);
             Assert.AreEqual("backward", rel.Direction);
-            Assert.IsNotNull(rel.Artist);
             Assert.AreEqual("Jon Fishman", rel.Artist.Name);
             Assert.AreEqual("Fishman, Jon", rel.Artist.SortName);
             Assert.AreEqual("fd1f0177-f5c8-4d13-84c4-b8adea527183", rel.Artist.Id);
+        }
+
+        [TestMethod]
+        public void TestUrlRelationListItems()
+        {
+            Assert.IsNotNull(artist.UrlRelations.Items);
+            Assert.AreEqual(21, artist.UrlRelations.Items.Count);
+
+            Relation rel = artist.UrlRelations.Items[0];
+            Assert.IsNotNull(rel);
+            Assert.AreEqual("d94fb61c-fa20-4e3c-a19a-71a949fb2c55", rel.TypeId);
+            Assert.AreEqual("other databases", rel.Type);
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
+            Assert.AreEqual("d34568d6-5b3c-47b7-84ed-fffe2b92de1e", rel.Target.Id);
+            Assert.AreEqual("http://d-nb.info/gnd/6510543-6", rel.Target.Value);
+
+            rel = artist.UrlRelations.Items[1];
+            Assert.IsNotNull(rel);
+            Assert.AreEqual("29651736-fa6d-48e4-aadc-a557c6add1cb", rel.TypeId);
+            Assert.AreEqual("wikipedia", rel.Type);
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
+            Assert.AreEqual("57fc967f-6c96-468b-830d-1372d1ae5f0f", rel.Target.Id);
+            Assert.AreEqual("http://en.wikipedia.org/wiki/Phish", rel.Target.Value);
+
+            rel = artist.UrlRelations.Items[20];
+            Assert.IsNotNull(rel);
+            Assert.AreEqual("689870a4-a1e4-4912-b17f-7b2664215698", rel.TypeId);
+            Assert.AreEqual("wikidata", rel.Type);
+            Assert.IsNotNull(rel.Target, "Relation target is null.");
+            Assert.AreEqual("3d7d6f47-c973-4cc1-bd81-ac9e782b25db", rel.Target.Id);
+            Assert.AreEqual("https://www.wikidata.org/wiki/Q921267", rel.Target.Value);
         }
     }
 }
